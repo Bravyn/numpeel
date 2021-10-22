@@ -1,5 +1,6 @@
 import axios from "axios";
 import React from "react";
+import '../styles/home.css';
 
 export default class Home extends React.Component{
     constructor(props){
@@ -16,13 +17,12 @@ export default class Home extends React.Component{
     }
     render(){
         return(
-            <div>
+            <div className = "home">
             <ul>
                { this.state.users.map(
-                   user => <li>{ user.name }</li>
+                   user => <button className = "namebtn"><li>{ user.name }</li></button>
                )}
             </ul>
-            <h1>Hello</h1>
             </div>
         );
     }

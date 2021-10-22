@@ -1,10 +1,12 @@
-import logo from './logo.svg';
-import './App.css';
-import Home from './Home';
+import './styles/App.css';
+import Home from './components/Home';
+import Time from './components/Time';
+
 
 function App() {
   return (
     <div className="App">
+      <Time/>
       <Home url = "https://jsonplaceholder.typicode.com/users"/>
     </div>
   );

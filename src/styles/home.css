@@ -1,0 +1,44 @@
+.home{
+    margin-top: 2%;
+    color: blueviolet;
+    background-color: rgb(14, 232, 240);
+    padding: .5em 2em .8em .2em;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-radius: 2em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+}
+
+ul{
+    border: .5em .5em .3em .3em solid #000;
+    border-radius: .8em;
+    color: rgb(79, 99, 218);
+    position:absolute;
+    padding: 1.2em 1.2em 1.2em 2.2em;
+}
+li{
+    display: block;
+    padding-top: .5em;
+    color: rgb(30, 2, 56);
+    background-color: rgb(161, 132, 230);
+    border: .1em .2em .2em .2em solid rgb(72, 2, 78);
+    border-radius: .4em;
+    font-family: Verdana, Geneva;
+    font-style: italic;
+    position: relative;
+}
+
+.namebtn{
+    position: relative;
+    font-size: medium;
+    margin-top: .4vmin;
+    margin-bottom: .4vmin;
+    margin-left: 2vmin;
+    color: rgb(30, 2, 56);
+    background-color: rgb(161, 132, 230);
+    border: .1em .2em .2em .2em solid rgb(72, 2, 78);
+    border-radius: .4em;
+    font-family: Verdana, Geneva;
+    font-style: italic;
+}
